@@ -1,6 +1,6 @@
 set(protobuf_MODULE_COMPATIBLE TRUE)
 find_package(Threads REQUIRED)
-find_package(Protobuf CONFIG REQUIRED)
+find_package(protobuf CONFIG REQUIRED)
 find_package(gRPC CONFIG REQUIRED)
 
 message(STATUS "Using Protobuf ${Protobuf_VERSION}")
