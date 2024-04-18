@@ -152,7 +152,7 @@ setup(
     ext_modules=[CMakeExtension("_mjx")],
     zip_safe=False,
     install_requires=[
-        "protobuf==3.20.2",
+        "protobuf==4.25.3",
         "google",
         "grpcio",
         "numpy",
